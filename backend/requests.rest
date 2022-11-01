@@ -1,0 +1,18 @@
+GET http://localhost:5000/api/todos
+
+###
+
+POST http://localhost:5000/api/todo/new
+Content-Type: application/json
+
+{
+    "title": "Bye"
+}
+
+###
+
+DELETE http://localhost:5000/api/todo/delete/6360a96c00f65ec5980defab
+
+###
+
+GET http://localhost:5000/api/todo/toggleStatus/63608f1ab0d04f5778cb02a7

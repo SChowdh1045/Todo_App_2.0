@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(145deg, turquoise, blue);
+}
+
+.App{
+    width: 90vh;
+    padding: 30px;
+    margin: 5vh auto;
+    background-color: aliceblue;
+    border: 1px solid #000;
+    border-radius: 7px;
+    min-height: 20vh;
+    height: 90vh;
+    overflow: auto;
+}
+
+.todo_input_wrapper{
+    margin-top: 6%;
+    display: flex;
+    align-items: center;  
+}
+
+.todo_input_bar{
+    width: 100%;
+    height: 5vh;
+    font-size: large;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 7px;
+    padding: 8px;
+}
+
+.add_button{
+    width: 7%;
+    height: 7%;
+    border-radius: 7px;
+    margin-left: 10px;
+    background-color: forestgreen;
+    text-align: center;    
+    color: azure;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.todos_list{
+    margin-top: 7%;
+    font-size: large;
+}
+
+.todo{
+    position: relative;
+    width: 100%;
+    background-color: rgb(222, 227, 235);
+    color: #000;
+    padding: 3%;
+    margin-bottom: 5%;
+    border-radius: 7px;
+    overflow: auto;
+}
+
+#todo_title{
+    cursor: pointer;
+}
+
+.complete{
+    color: darkgreen;
+    text-decoration: line-through;
+}
+
+.delete_todo{
+    position: absolute;
+    font-size: larger;
+    top: 30%;
+    right: 5%;
+    cursor: pointer;
+}
